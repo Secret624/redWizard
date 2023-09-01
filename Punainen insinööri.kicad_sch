@@ -777,6 +777,7 @@
     )
   )
 
+
   (junction (at 91.44 49.53) (diameter 0) (color 0 0 0 0)
     (uuid 0e264fc6-9924-4970-8877-365dbe270f53)
   )
@@ -858,6 +859,9 @@
   (junction (at 111.76 38.1) (diameter 0) (color 0 0 0 0)
     (uuid fdb73072-1c8e-45f5-bd08-e02853ce10f9)
   )
+
+  (no_connect (at 120.65 67.31) (uuid 6a4fc812-55df-429a-b578-ac1fa843a060))
+  (no_connect (at 118.11 67.31) (uuid 8268ec1f-9b24-4263-8deb-b5f85c66a097))
 
   (wire (pts (xy 86.36 67.31) (xy 86.36 69.85))
     (stroke (width 0) (type default))
@@ -1519,7 +1523,7 @@
     (property "Reference" "Q1" (at 171.45 37.465 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MMBFJ113" (at 171.45 40.005 0)
+    (property "Value" "MMBF4393LT1G" (at 171.45 40.005 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 171.45 40.005 0)
@@ -1527,6 +1531,9 @@
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBFJ113-D.PDF" (at 166.37 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "LCSC #" "C152291" (at 166.37 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 62fddbd1-0dfb-4b4e-9ede-df31134e7c0f))
     (pin "2" (uuid d192061f-972e-4618-8676-82527dd688c7))
